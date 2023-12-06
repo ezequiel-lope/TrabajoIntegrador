@@ -64,12 +64,15 @@ public class ProyectoIntegrador {
       
        
      controllerMA.servicioCliente();
-     
-     controllerMA.marcarProblemaResuelto();
-     
+        
      controllerRH.EmitirReporte();
      
      controllerMA.marcarProblemaResuelto();
+        
+     controllerMA.servicioCliente();
+     
+     controllerRH.EmitirReporte();
+     
      
       
        
